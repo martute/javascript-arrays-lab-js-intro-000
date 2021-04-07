@@ -21,7 +21,7 @@ function destructivelyRemoveFirstKitten() {
   return kittens;
 }
 
-function appendKitten(Hur) {
-  var kittens1 = [...kittens, "Hur"];
+function appendKitten(Broom) {
+  var kittens1 = [...kittens, "Broom"];
   return kittens1;
 }
