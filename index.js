@@ -10,3 +10,8 @@ function destructivelyPrependKitten(Bob) {
   kittens = ["Bob", ...kittens];
   return kittens;
 }
+
+function destructivelyRemoveLastKitten() {
+  kittens.slice(1);
+  return kittens;
+}
